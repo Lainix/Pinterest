@@ -1,0 +1,111 @@
+body {
+    box-sizing: content-box;
+    background-color: pink;
+    margin: 0;
+}
+
+header {
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    background-color: pink;
+    border-bottom: 1px solid grey;
+    z-index:1;
+}
+
+header>* {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.perfil {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    top: 17px;
+    margin: 5px;
+}
+
+.busqueda {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    width: 15px;
+    height: 15px;
+}
+.pinterest {
+    position: absolute;
+    left: 50px;
+    width: 45px;
+    height: 45px;
+} 
+
+header>form {
+    border-radius: 10px;
+    left: 120px;
+    padding: 0.5em;
+    height: 25px;
+    width: 65%;
+}
+
+header>navbar {
+    left: 50px;
+    width: 25%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.tag {
+    position: relative;
+    display: inline-block;
+    top: 75px;
+    left: 60px;
+    padding: 5px 50px 5px 30px;
+    margin: 7px;
+    background-color: #DE87C1;
+    border-radius: 5%;
+    font-family: align-self;
+    text-align: center;
+}
+
+.col {
+    float: left;
+    width: 20%;
+    margin: 80px 15px 10px 100px;
+}
+
+.image {
+    width: 370px;
+    height: 500px;
+    border-radius: 50px;
+}
+
+.input {
+    border-radius: 10px;
+    width: 650px;
+    height: 30px;
+    font-family: Arial;
+    font-size: 10px;
+    background-color: #C4C5C5"
+
+}
+
+form {
+    background-color: #C4C5C5;
+    margin: 1px;
+    text-align: center;
+}
+
+form>* {
+    border: none;
+    background-color: #C4C5C5;
+}
+.pin:hover {
+    opacity: 0.5;
+}
+.tag:hover {
+    opacity: 0.5;
+}
